@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sustainable Development Goals | The Goals</title>
+    <meta
+      name="description"
+      content="Overview of the 17 Sustainable Development Goals — learn, act, and join the movement for a better future."
+    />
+    <meta
+      property="og:title"
+      content="Sustainable Development Goals | The Goals"
+    />
+    <meta
+      property="og:description"
+      content="Overview of the 17 Sustainable Development Goals — learn, act, and join the movement for a better future."
+    />
+    <meta property="og:image" content="images/sdg-preview.png" />
+    <meta name="theme-color" content="#0a7bd9" />
+    <!--Links to Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--Links to CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        <!-- Navbar Start -->
+<div class="navbar">
+  <div class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/44/44386.png" alt="globe icon">
+    The Goals
+  </div>
+  <div class="nav-links" id="home">
+    <a href="#hero">Home</a>
+    <a href="#history">About</a>
+    <a href="#goals">17 Goals</a>
+    <a href="#sdg">Learn More</a>
+    <a href="#call">Contact</a>
+  </div>
+  <div class="search-wrapper">
+    <span class="search-icon">🔍</span>
+    <input id="searchBar" class="search-input" type="text" placeholder="Search..." />
+  </div>
+
+</div>
+<!-- Navbar End -->
+    <!-- HERO -->
+    <header id="hero" class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Sustainable Development Goals</h1>
+        <p class="hero-sub">
+          Explore the 17 interconnected global goals designed to achieve a
+          better and more sustainable future for all by 2030
+        </p>
+        <div class="hero-cta">
+          <button id="exploreBtn" class="btn primary">
+            Explore the 17 Goals
+          </button>
+          <button id="actionBtn" class="btn outline">Take Action Now</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- ABOUT -->
+      <section class="section light">
+        <div class="container">
+          <h2 class="section-title">
+            What are the Sustainable Development Goals?
+          </h2>
+          <br />
+          <p class="lead">
+            The Sustainable Development Goals are the blueprint to achieve a
+            better and more sustainable future for all. They address the global
+            challenges we face, including those related to poverty, inequality,
+            climate change, environmental degradation, peace and justice. The 17
+            Goals are all interconnected, and in order to leave no one behind,
+            it is important that we achieve them all by 2030.
+          </p>
+          <br />
+
+          <div class="cards-grid">
+            <div class="card">
+              <div class="icon-circle red"><i class="ri-heart-line"></i></div>
+              <h3>People</h3>
+              <p>
+                End poverty and hunger in all forms and ensure dignity and
+                equality for all people.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle green"><i class="ri-earth-line"></i></div>
+              <h3>Planet</h3>
+              <p>
+                Protect our planet's natural resources and climate for future
+                generations.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle blue">
+                <i class="ri-line-chart-line"></i>
+              </div>
+              <h3>Prosperity</h3>
+              <p>
+                Ensure prosperous and fulfilling lives in harmony with nature
+                for all.
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <div class="partnership">
+            <div class="partnership-text">
+              <h3>A Global Partnership</h3>
+              <p>
+                The United Nations collaborate with creative agencies, the
+                entertainment industry, media organizations and businesses who
+                are committed to achieving the sustainable development goals.
+              </p>
+
+              <div class="stats-row">
+                <div class="stat">
+                  <div class="small">193</div>
+                  <div class="label">Countries</div>
+                </div>
+                <div class="stat">
+                  <div class="medium">17</div>
+                  <div class="label">Goals</div>
+                </div>
+                <div class="stat">
+                  <div class="big">169</div>
+                  <div class="label">Targets</div>
+                </div>
+              </div>
+            </div>
+<div style="width: 220px; text-align: center">
+  <!-- SDG wheel placeholder -->
+  <div
+    class="sdg-wheel"
+    style="
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #e5243b 0 21deg,
+        #dda63a 21deg 43deg,
+        #4c9f38 43deg 64deg,
+        #c5192d 64deg 84deg,
+        #ff3a21 84deg 106deg,
+        #26bde2 106deg 126deg,
+        #fcc30b 126deg 151deg,
+        #a21942 151deg 171deg,
+        #fd6925 171deg 191deg,
+        #dd1367 191deg 211deg,
+        #fd9b20 211deg 233deg,
+        #bf8b2e 233deg 254deg,
+        #3f7e44 254deg 275deg,
+        #0a97d9 275deg 299deg,
+        #56c02b 299deg 322deg,
+        #00689d 322deg 346deg,
+        #19486a 346deg 360deg
+      );
+      box-shadow: 0 8px 28px rgba(16, 24, 40, 0.08);
+      margin: 0 auto;
+      animation: spin 6s linear infinite;
+    "
+  ></div>
+
+  <div style="font-size: 12px; color: var(--muted); margin-top: 8px">
+    Do you know all 17 SDGs?
+  </div>
+</div>
+      </section>
+
+      <!-- GOALS GRID -->
+      <section id="goals" class="section-white">
+        <div class="container">
+          <h2 class="section-title">The 17 Sustainable Development Goals</h2>
+          <p class="lead">
+            Each goal addresses different aspects of sustainable development,
+            working together to create a better world for current and future
+            generations.
+          </p>
+
+          <div id="goalsGrid" class="goals-grid"></div>
+        </div>
+        <div class="popup-bg" id="popupBG"></div>
+      </section>
+
+      <!--INFORMATION SECTION -->
+      <section class="sdg-section" id="sdg">
+        <h2>Do you know all 17 SDGs?</h2>
+        <div class="content-container">
+          <!-- Left: YouTube Video -->
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/7V8oFI4GYMY"
+              title="Do you know all 17 SDGs?"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <!-- Right Menu Section -->
+          <div class="menu-container">
+            <div class="menu-item active">
+              The Goals | Sustainable Development Goals
+            </div>
+            <div class="menu-item">Implementation Progress</div>
+            <div class="menu-item">History</div>
+            <div class="menu-item">Vision</div>
+            <div class="menu-item">Mission</div>
+          </div>
+        </div>
+      </section>
+      <!-- IMPACT / STATS -->
+      <section id="impact" class="section light">
+        <div class="container">
+          <h2 class="section-title">Implementation Progress</h2>
+          <div class="impact-grid">
+            <div class="impact-card">
+              <div class="impact-num">4075</div>
+              <div class="impact-label">Events</div>
+            </div>
+            <div class="impact-card">
+              <div class="impact-num">1371</div>
+              <div class="impact-label">Publications</div>
+            </div>
+            <div class="impact-card">
+              <div class="impact-num">8544</div>
+              <div class="impact-label">Actions</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--HISTORY SECTION-->
+      <section class="history" id="history">
+        <div class="container">
+          <div class="title">
+            <h3>About Us</h3>
+          </div>
+
+          <div class="section-content">
+            <h3>History</h3>
+            <p>
+              Adopted by all UN members in 2015, the 2030 Agenda for Sustainable
+              Development offers a common framework for future peace and
+              prosperity for both people and the environment. The 17 Sustainable
+              Development Goals (SDGs), which are an urgent call to action for
+              all nations—developed and developing—in a global partnership, are
+              at its core. They understand that efforts to combat climate change
+              and protect our oceans and forests must coexist with measures that
+              enhance health and education, lessen inequality, and promote
+              economic growth in order to eradicate poverty and other forms of
+              deprivation.<br /><br />
+              The worldwide development initiatives that started with the
+              Millennium Development Goals (MDGs) in 2000 were continued and
+              improved with the creation of the Sustainable Development Goals
+              (SDGs). The MDGs were narrowly focused and did not address more
+              general global issues like inequality or climate change. Instead,
+              they concentrated primarily on poverty, health, and education in
+              poor nations. <br /><br />
+              Acknowledging these disparities, world leaders convened at the
+              Rio+20 Conference in 2012 and decided to create a new set of
+              objectives including social, economic, and environmental issues
+              that would be applicable to all countries. The 17 SDGs were
+              formally accepted in 2015 by 193 UN member states as part of the
+              2030 Agenda for Sustainable Development following three years of
+              international consultations including governments, scientists,
+              organizations, and citizens.
+            </p>
+            <h3>Our Vision</h3>
+            <p>
+              A world empowered by collaborative action to accomplish all
+              Sustainable Development Goals for a fair and sustainable future,
+              where everyone lives in peace, equality, and environmental
+              harmony.
+            </p>
+            <h3>Our Mission</h3>
+            <p>
+              To educate, motivate, and inspire communities by offering easily
+              accessible information, interesting resources, and worthwhile
+              experiences that encourage awareness, action, and teamwork in the
+              pursuit of the Sustainable Development Goals.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+      <!-- CALL TO ACTION -->
+      <section id="call" class="section cta">
+        <div class="container text-center">
+          <h2 class="section-title light">Take action today</h2>
+          <br />
+          <p class="lead light">
+            Small actions add up. Volunteer, donate, campaign, and raise
+            awareness in your community.
+          </p>
+          <div class="hero-cta">
+            <a href="https://globalgoals.org/take-action/" class="btn primary"
+              >See how you can help</a
+            >
+            <a href="https://sdgs.un.org/about#undefined" class="btn outline"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3>The Goals</h3>
+            <p>
+              Developed by: Bautista, Lucky P. - BSCS-1C
+            </p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <br />
+              <li><a href="#goals">The 17 Goals</a></li>
+              <br />
+              <li>
+                <a href="#impact">Progress Report</a>
+              </li>
+              <br />
+              <li>
+                <a
+                  href="#sdg"
+                  >Learn More</a
+                >
+              </li>
+              <br />
+            </ul>
+          </div>
+          <div>
+            <h4>Connect</h4>
+            <p>Share this Page</p>
+            <div class="socials">
+              <a aria-label="Twitter" href="https://x.com/SustDev"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a aria-label="Facebook" href="https://www.facebook.com/SustDev"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a aria-label="Instagram" href="https://www.instagram.com/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a aria-label="Linkedin" href="https://www.linkedin.com/feed/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <small
+            >© <span id="year"></span> United Nations | All Rights Reserved
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
